@@ -76,7 +76,7 @@ textarea {
   letter-spacing: 0.04em;
 }
 button {
-  border: none;
+border: none;
   border-radius: 8px;
   padding: 8px 16px;
   width: 95px;
@@ -84,10 +84,8 @@ button {
   background: #4e75ff;
   margin-top: 16px;
   font-weight: 500;
-  color: #fff;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
