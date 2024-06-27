@@ -29,6 +29,8 @@ if (!formData.email || !formData.message) {
 } else {
   console.log(formData);
   localStorage.removeItem(localStorageKey);
-  form.reset()
+  form.reset();
+  formData.email = "";
+  formData.message = "";
 }
 });
